@@ -7,7 +7,7 @@ const Form = () => (
     method="POST"
     data-netlify="true"
     action="/success"
-    netlify-honeypot="bot-field"
+    data-netlify-honeypot="bot-field"
   >
     <div class="hidden" style={{ display: "none" }}>
       <label>
