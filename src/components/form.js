@@ -9,9 +9,9 @@ const Form = () => (
     action="/success"
     data-netlify-honeypot="bot-field"
   >
-    <div class="hidden" style={{ display: "none" }}>
+    <div class="hidden">
       <label>
-        <input type="hidden" name="bot-field" />
+        <input type="hidden" name="bot-field" value="contact" />
       </label>
     </div>
     <div class="form-group">
